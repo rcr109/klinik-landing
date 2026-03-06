@@ -16,7 +16,6 @@
     <header class="fixed w-full bg-white/90 backdrop-blur-sm border-b border-slate-200 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center gap-2">
-                <!-- Ícone/Logo -->
                 <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">H</div>
                 <span class="text-xl font-bold tracking-tight text-slate-900">HelpSync</span>
             </div>
@@ -61,49 +60,38 @@
         </div>
     </section>
 
-    <!-- Funcionalidades (Grid Expandido para 6 Itens) -->
+    <!-- Funcionalidades -->
     <section class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
             <h2 class="text-3xl font-bold text-slate-900">Muito além de um sistema de gestão</h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Feature 1: IA -->
             <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                 <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-2xl">✨</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Co-terapeuta Digital (IA)</h3>
                 <p class="text-slate-600 leading-relaxed">Nossa Inteligência Artificial sugere direcionamentos e organiza prontuários a partir de anotações curtas. Tudo projetado para manter o sigilo absoluto e a conformidade ética em primeiro lugar.</p>
             </div>
-
-            <!-- Feature 2: Prontuário -->
             <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                 <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center mb-6 text-2xl">👥</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Prontuário Eletrônico</h3>
                 <p class="text-slate-600 leading-relaxed">Diga adeus à burocracia do papel. Prontuários eletrônicos seguros e visão cronológica de cada paciente, mantendo o histórico clínico sempre organizado e rapidamente acessível.</p>
             </div>
-
-            <!-- Feature 3: Agenda/Calendário (NOVO) -->
             <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                 <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center mb-6 text-2xl">📅</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Calendário Intuitivo</h3>
                 <p class="text-slate-600 leading-relaxed">Marque, remarque e acompanhe consultas de forma visual e prática. Uma agenda fluída que devolve o controle do seu tempo e facilita a gestão do seu dia em poucos cliques.</p>
             </div>
-
-            <!-- Feature 4: Financeiro -->
             <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                 <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mb-6 text-2xl">💰</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Financeiro Descomplicado</h3>
                 <p class="text-slate-600 leading-relaxed">O controle financeiro que roda no automático. Tenha clareza sobre os pagamentos individuais de pacientes e a visão macro do faturamento do seu consultório.</p>
             </div>
-
-            <!-- Feature 5: Segurança -->
             <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                 <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-6 text-2xl">🔒</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Sigilo e LGPD</h3>
                 <p class="text-slate-600 leading-relaxed">Ambientes de dados isolados (Multi-Tenant). Você tem o controle de acessos da sua clínica, com visão restrita para secretárias e assistentes. Seus dados blindados na nuvem.</p>
             </div>
-
-            <!-- Feature 6: Extração CSV (NOVO) -->
             <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
                 <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-6 text-2xl">📂</div>
                 <h3 class="text-xl font-bold text-slate-900 mb-3">Seus Dados, Suas Regras</h3>
@@ -112,7 +100,7 @@
         </div>
     </section>
 
-    <!-- Planos de Preços -->
+    <!-- Planos de Preços (AGORA COM BOTÕES DE SELEÇÃO) -->
     <section class="py-24 bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -128,26 +116,28 @@
                     <h3 class="text-2xl font-bold mb-2">Starter Solo</h3>
                     <p class="text-slate-400 mb-6 text-sm">A fundação ideal para o profissional autônomo.</p>
                     <div class="text-4xl font-bold mb-8">R$ 19,90<span class="text-lg text-slate-500 font-normal">/mês</span></div>
-                    <ul class="space-y-4 text-slate-300 flex-grow text-sm">
+                    <ul class="space-y-4 text-slate-300 flex-grow text-sm mb-8">
                         <li class="flex items-start gap-3"><span class="text-emerald-400">✓</span> Agenda e Gestão Financeira</li>
                         <li class="flex items-start gap-3"><span class="text-emerald-400">✓</span> Prontuário eletrônico blindado (LGPD)</li>
                         <li class="flex items-start gap-3"><span class="text-emerald-400">✓</span> Acesso para 1 Assistente (visão restrita)</li>
                         <li class="flex items-start gap-3 font-semibold text-blue-400">✨ Limite de 20 diagnósticos/IA por mês</li>
                     </ul>
+                    <button data-plano="starter" class="btn-escolher-plano w-full py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-semibold transition mt-auto border border-slate-600">Testar Starter</button>
                 </div>
 
-                <!-- Premium Solo (Destaque alinhado) -->
+                <!-- Premium Solo -->
                 <div class="bg-blue-600 p-8 rounded-2xl border border-blue-500 relative shadow-2xl flex flex-col h-full">
                     <div class="absolute top-0 right-8 transform -translate-y-1/2 bg-amber-400 text-amber-950 px-3 py-1 rounded-full text-xs font-bold tracking-wide uppercase">Mais Escolhido</div>
                     <h3 class="text-2xl font-bold mb-2 text-white">Premium Solo</h3>
                     <p class="text-blue-200 mb-6 text-sm">Para profissionais com agenda lotada.</p>
                     <div class="text-4xl font-bold mb-8 text-white">R$ 29,90<span class="text-lg text-blue-300 font-normal">/mês</span></div>
-                    <ul class="space-y-4 text-blue-50 flex-grow text-sm">
+                    <ul class="space-y-4 text-blue-50 flex-grow text-sm mb-8">
                         <li class="flex items-start gap-3"><span>✓</span> Tudo do plano Starter Solo</li>
                         <li class="flex items-start gap-3"><span>✓</span> Acesso para 1 Assistente (visão restrita)</li>
                         <li class="flex items-start gap-3"><span>✓</span> Suporte Prioritário</li>
                         <li class="flex items-start gap-3 font-bold text-white">✨ Limite de 60 diagnósticos/IA por mês</li>
                     </ul>
+                    <button data-plano="premium" class="btn-escolher-plano w-full py-3 rounded-xl bg-white text-blue-600 hover:bg-blue-50 font-bold transition mt-auto shadow-sm">Testar Premium</button>
                 </div>
 
                 <!-- Premium Clínica -->
@@ -155,12 +145,13 @@
                     <h3 class="text-2xl font-bold mb-2">Premium Clínica</h3>
                     <p class="text-slate-400 mb-6 text-sm">Gestão colaborativa para times de saúde.</p>
                     <div class="text-4xl font-bold mb-8">R$ 79,90<span class="text-lg text-slate-500 font-normal">/mês</span></div>
-                    <ul class="space-y-4 text-slate-300 flex-grow text-sm">
+                    <ul class="space-y-4 text-slate-300 flex-grow text-sm mb-8">
                         <li class="flex items-start gap-3"><span class="text-emerald-400">✓</span> Isolamento de dados Multi-Tenant</li>
                         <li class="flex items-start gap-3"><span class="text-emerald-400">✓</span> Inclui até 6 Profissionais</li>
                         <li class="flex items-start gap-3"><span class="text-emerald-400">✓</span> Acesso para 2 Assistentes/Secretárias</li>
                         <li class="flex items-start gap-3 font-semibold text-blue-400">✨ 60 diagnósticos/IA mensais POR profissional</li>
                     </ul>
+                    <button data-plano="clinica" class="btn-escolher-plano w-full py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-semibold transition mt-auto border border-slate-600">Testar Clínica</button>
                 </div>
 
             </div>
@@ -171,11 +162,20 @@
     <section id="acesso" class="py-24 bg-white border-b border-slate-200">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold text-slate-900 mb-6">Comece sua transformação hoje</h2>
-            <p class="text-lg text-slate-600 mb-10">Insira seus dados abaixo para instanciar seu ambiente seguro e iniciar seus <strong>7 dias de teste gratuito</strong> no HelpSync.</p>
+            <p class="text-lg text-slate-600 mb-10">Insira seus dados abaixo para instanciar seu ambiente seguro e iniciar seus <strong>7 dias de teste gratuito</strong>.</p>
             
             <form id="leadForm" class="max-w-md mx-auto flex flex-col gap-4">
                 <input type="text" id="nome" placeholder="Seu nome" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition">
-                <input type="email" id="email" placeholder="Seu melhor e-mail (gmail)" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition">
+                <input type="email" id="email" placeholder="Seu melhor e-mail (Google/Microsoft)" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition">
+                
+                <!-- NOVO SELECT DE PLANOS -->
+                <select id="plano" required class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition bg-white text-slate-700 font-medium cursor-pointer">
+                    <option value="" disabled selected>Qual plano deseja testar?</option>
+                    <option value="starter_solo">Plano Solo Starter (R$ 19,90/mês)</option>
+                    <option value="premium_solo">Plano Solo Premium (R$ 29,90/mês)</option>
+                    <option value="premium_clinica">Plano Clínica Premium (R$ 79,90/mês)</option>
+                </select>
+
                 <button type="submit" class="w-full px-8 py-4 text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-md transition duration-200">
                     Criar minha conta e testar agora
                 </button>
@@ -189,12 +189,11 @@
         <p>&copy; 2026 HelpSync. Todos os direitos reservados. "Sua clínica sincronizada. Sua mente focada no paciente."</p>
     </footer>
 
-    <!-- Script de Captura com Firebase (Vanilla JS Modular) -->
+    <!-- Script de Captura com Firebase -->
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
         import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-        // Credenciais do Projeto
         const firebaseConfig = {
             apiKey: "AIzaSyCikSbz_flwmxjR6BJ2690Qu-V67ulNVbc",
             authDomain: "klinik-app-48a72.firebaseapp.com",
@@ -208,6 +207,16 @@
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
+        // A MÁGICA DE UX: Clica no card -> seleciona no select -> rola a tela -> foca no input
+        document.querySelectorAll('.btn-escolher-plano').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const planoSelecionado = e.target.getAttribute('data-plano');
+                document.getElementById('plano').value = planoSelecionado;
+                document.getElementById('acesso').scrollIntoView({ behavior: 'smooth' });
+                setTimeout(() => document.getElementById('nome').focus(), 600);
+            });
+        });
+
         document.getElementById('leadForm').addEventListener('submit', async function(e) {
             e.preventDefault(); 
             
@@ -215,6 +224,7 @@
             const feedback = document.getElementById('feedbackMessage');
             const nomeInput = document.getElementById('nome').value;
             const emailInput = document.getElementById('email').value;
+            const planoInput = document.getElementById('plano').value; // Pega o Plano!
             
             btn.innerText = "Provisionando seu ambiente...";
             btn.disabled = true;
@@ -223,6 +233,7 @@
                 await addDoc(collection(db, "waitlist"), {
                     nome: nomeInput,
                     email: emailInput,
+                    planoId: planoInput, // Injeta o Plano no Banco (Waitlist)
                     data_solicitacao: serverTimestamp(),
                     status: "pendente",
                     origem: "landing_page_helpsync"
